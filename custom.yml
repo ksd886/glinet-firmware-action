@@ -6,7 +6,7 @@ feeds:
     branch: master
 packages:
   - luci-app-mwan3
-  - luci-app-adguardhome
+  - luci-app-ssr-plus
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
