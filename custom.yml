@@ -13,7 +13,6 @@ feeds:
 packages:
   - luci-app-mwan3
   - luci-app-ssr-plus
-  - luci-app-aliddns
   - luci-app-diskman  
   
 diffconfig: |
