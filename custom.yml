@@ -7,10 +7,14 @@ feeds:
   - name: openwrt-packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
+  - name: small-package
+    uri: https://github.com/kenzok8/small-package.git
+    branch:master
 packages:
   - luci-app-mwan3
   - luci-app-ssr-plus
-  - luci-app-dockerman
+  - luci-app-aliddns
+  - luci-app-diskman  
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
