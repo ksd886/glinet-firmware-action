@@ -12,7 +12,6 @@ feeds:
     branch: main
 packages:
   - luci-app-mwan3
-  - luci-app-diskman  
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
