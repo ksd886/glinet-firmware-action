@@ -4,12 +4,6 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
-  - name: openwrt-packages
-    uri: https://github.com/kenzok8/openwrt-packages.git
-    branch: master
-  - name: small-package
-    uri: https://github.com/kenzok8/small-package.git
-    branch: main
 packages:
   - luci-app-mwan3
   
