@@ -4,16 +4,6 @@ feeds:
   - name: liuran001_packages
     uri: https://github.com/liuran001/openwrt-packages.git
     branch: packages
-  - name: packages 
-    path: https://git.openwrt.org/feed/packages.git^e86c4376d
-  - name: luci
-    path: https://git.openwrt.org/project/luci.git^63bfee6c8d
-  - name: routing
-    path: https://git.openwrt.org/feed/routing.git^25e7648
-  - name: telephony
-    path: https://git.openwrt.org/feed/telephony.git;openwrt-21.02
-  - name: mtk_openwrt_feed
-    path: https://git01.mediatek.com/openwrt/feeds/mtk-openwrt-feeds.git^df3fc79
 packages:
   - luci-app-mwan3
   - luci-app-ssr-plus
