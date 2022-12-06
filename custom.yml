@@ -41,6 +41,11 @@ packages:
   - luci-app-dockerman
   - luci-app-ssr-plus
   - dockerd
+  - luci-app-jellyfin
+  - luci-app-homeassistant
+  - luci-app-diskman
+  - luci-app-adblock
+  - luci-app-frpc
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
