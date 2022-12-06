@@ -6,8 +6,6 @@ feeds:
     branch: packages
 packages:
   - luci-app-mwan3
-  - luci-app-ssr-plus
-  - luci-app-dockerman
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
