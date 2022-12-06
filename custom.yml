@@ -14,23 +14,109 @@ feeds:
     uri: https://github.com/liuran001/openwrt-packages
     branch: packages
 packages:
+  - kmod-usb-storage
+  - kmod-usb-uhci
+  - kmod-usb2
+  - kmod-usb-ohci
+  - kmod-gl-sdk4-hw-info
+  - kmod-gl-sdk4-tertf
+  - dnsmasq-full
+  - mwan3
+  - arp-scan
+  - iwinfo
+  - httping
+  - ssmtp
+  - block-mount
+  - blkid
+  - ntfs-3g
+  - ntfs-3g-utils
+  - kmod-fs-ext4
+  - kmod-fs-ntfs
+  - kmod-fs-vfat
+  - kmod-fs-exfat
+  - kmod-gl-sdk4-fan
+  - kmod-inet-diag
+  - iptables-mod-tproxy
+  - iptables-mod-filter
+  - liblua5.1.5
+  - libcurl
+  - ethtool
+  - minidlna
+  - lua
+  - libubox-lua
+  - libuci-lua
+  - libubus-lua
+  - libiwinfo-lua
+  - lua-cjson
+  - jansson
+  - lsqlite3
+  - luabitop
+  - openssl-util
+  - fcgi
+  - nginx-ssl
+  - ddns-scripts
+  - stubby
+  - dnscrypt-proxy2
+  - kmod-ipt-nat6
+  - kmod-mtdoops
+  - smstools3
+  - comgt
+  - chat
+  - uqmi
+  - usb-modeswitch
+  - kmod-usb-acm
+  - kmod-usb-net-huawei-cdc-ncm
+  - kmod-usb-serial
+  - kmod-usb-serial-option
+  - kmod-usb-serial-wwan
+  - kmod-usb-net-cdc-ether
+  - kmod-usb-net-qmi-wwan
+  - kmod-gl-sdk4-edgerouter-status
+  - mqtt
+  - dosfstools
+  - e2fsprogs
+  - relayd
+  - openvpn-openssl
+  - resolveip
+  - unzip
+  - kmod-sched-core
+  - tc-tiny
+  - kmod-ifb
+  - rtty-openssl
+  - wireguard-tools
+  - kmod-usb-net-ipheth
+  - usbmuxd
+  - kmod-usb-net-rndis
+  - iptables-mod-extra
+  - sudo
+  - curl
+  - ca-certificates
+  - ip-full
+  - luci-base
+  - luci-mod-rpc
+  - luci-mod-admin-full
+  - luci-theme-bootstrap
+  - luci-app-firewall
+  - luci-app-opkg
+  - luci-proto-ppp
+  - luci-proto-ipv6
+  - rpcd-mod-rrdns
+  - wpad-openssl
+  - tor
+  - tor-geoip
+  - swconfig
   - luci-app-mwan3
   - fwdd
   - mii_mgr
   - losetup
   - mkf2fs
-  - e2fsprogs
-  - blkid
   - blockdev
-  - kmod-fs-ext4
   - kmod-fs-f2fs
-  - kmod-fs-vfat
   - kmod-nls-cp437
   - regs
   - switch
   - mtk-base-files
   - mtk_factory_rw
-  - ethtool
   - kmod-mediatek_hnat
   - kmod-mtfwd
   - kmod-mtqos
