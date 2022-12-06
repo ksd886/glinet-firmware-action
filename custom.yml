@@ -4,8 +4,12 @@ feeds:
   - name: liuran001_packages
     uri: https://github.com/liuran001/openwrt-packages.git
     branch: packages
+  - name: small8
+    uri: https://github.com/kenzok8/small-package.git
+    branch: main
 packages:
   - luci-app-mwan3
+  - luci-app-ssr-plus
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
